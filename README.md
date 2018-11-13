@@ -5,3 +5,13 @@ Datagrid _(stateless = no cluster, no deployment group)_ :
 > * 2x server 5.183
 > * 2x payara-micro 5.183
 
+## Build the payara-micro image
+> docker build -f payara-micro.Dockerfile -t trendev/payara-micro .
+
+## Build the payara-server image
+> docker build -f payara-full.Dockerfile -t trendev/payara-full .
+
+## Compose and start the datagrid :stars:
+> docker-compose up _(-d can be added in order to detach the containers)_
+
+
