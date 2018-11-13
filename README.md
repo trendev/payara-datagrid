@@ -1,4 +1,4 @@
-# payara-datagrid
+# :star2: payara-datagrid :star2:
 Payara datagrid build with Docker and using the Clustered CDI Events example [cdi-clustered-events](https://github.com/trendev/Payara-Examples/tree/master/payara-micro/cdi-clustered-events).
 
 Datagrid _(stateless = no cluster, no deployment group)_ :
@@ -11,7 +11,7 @@ Datagrid _(stateless = no cluster, no deployment group)_ :
 ## Build the payara-server image
 > docker build -f payara-full.Dockerfile -t trendev/payara-full .
 
-## Compose and start the datagrid :stars:
+## :sparkles: Compose and start the datagrid :sparkles:
 > docker-compose up _(-d can be added in order to detach the containers)_
 
 
