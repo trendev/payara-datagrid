@@ -1,0 +1,26 @@
+version: '3'
+services:
+  payara-s1:
+    image: trendev/payara-full
+    container_name: payara-s1
+    ports:
+      - "14848:4848"
+      - "18080:8080"
+  payara-s2:
+    image: trendev/payara-full
+    container_name: payara-s2
+    ports:
+      - "24848:4848"
+      - "28080:8080"
+  payara-m1:
+    image: trendev/payara-micro
+    container_name: payara-m1
+    ports:
+      - "34848:4848"
+      - "38080:8080"
+  payara-m2:
+    image: trendev/payara-micro
+    container_name: payara-m2
+    ports:
+      - "44848:4848"
+      - "48080:8080"    
