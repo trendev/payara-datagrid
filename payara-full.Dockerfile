@@ -1,4 +1,4 @@
-FROM payara/server-full
+FROM payara/server-full:5.183
 
 LABEL maintainer="trendevfr@gmail.com"
 
